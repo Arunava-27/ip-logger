@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IP Address</title>
+</head>
+<body>
+  <h1>Your IP Address</h1>
+  <% if (ipv4) { %>
+    <p>IPv4: <%= ipv4 %></p>
+  <% } %>
+  <% if (ipv6) { %>
+    <p>IPv6: <%= ipv6 %></p>
+  <% } %>
+</body>
+</html>
